@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globetrotter</title>
+    <link rel="icon" href="./assets/files/logo.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <!-- Background Video & Header -->
+
+    <div class="banner">
+        <video src="./assets/files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+
+        <!-- Header -->
+        
+
+        <div class="content" id="home">
+            <nav>
+                <img src="./assets/files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+                <ul class="navbar">
+                    <li>
+                        <a href="#home">Home</a>
+                        <a href="#package">Packages</a>
+                        <a href="#locations">Locations</a>
+                        <a href="./info.html">About Us</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                </form>
+            </nav>
+              
+
+            <div class="title">
+                <h1>GLOBETROTTER</h1>
+                <p>See the World for Less! Explore Amazing Destinations with Our Budget-Friendly Packages.  </p>
+
+                <div class="wrapper">
+                    <form action="#">
+                        <div class="h5 font-weight-bold text-center mb-3" >Search your Destination</div>
+                        <div class="destination">
+                            <label for="city" >Enter your destination</label>
+                          </div>
+                          
+                        <div class="form-group ">
+                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="destination">
+                            <label for="city" >Enter your date</label>
+                        </div>
+                        <div class="form-group">
+                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
+                        </div>
+                        <div class="form-group">
+                            <div class="lable_total flex">
+                                  <label class="destination"  for="price">Max Price : <span id="result">2500</span> 
+                                </label>
+                            </div>
+                            <input id="mySlider" type="range" min="0" max="10000" value="2500"  style="width: 215px;">
+                            <script>
+                                mySlider.oninput = showSliderValue;
+                                function showSliderValue() {
+                                    result.innerText = this.value;
+                                }
+                            </script>
+                        </div>
+                    </form>
+                </div>
+
+                <a href="./booking.html" class="button">
+                    <span class="material-symbols-outlined">
+                        how_to_reg
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <section class="container">
+        <div class="text">
+            <h2>We have the best services available for you!</h2>
+        </div>
+        <div class="rowitems">
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/1a.jpg" alt="Flight Services">
+                </div>
+                <h4>Flight Services</h4>
+                <p>Arrival and Departure</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/2a.jpg" alt="Food Services">
+                </div>
+                <h4>Food Services</h4>
+                <p>Catering</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/3a.jpg" alt="Travel Services">
+                </div>
+                <h4>Travel Services</h4>
+                <p>Pick-up/drop</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/4a.jpg" alt="Hotel Services">
+                </div>
+                <h4>Hotel Services</h4>
+                <p>Check-in/out</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+
+    <section class="package" id="package">
+        <div class="package-title">
+            <h2>Packages</h2>
+        </div>
+
+        <div class="package-content">
+            <div class="text-block">
+                <h3>Best Selling Destinations</h3>
+            </div>
+
+            <a href="./package.html#2700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p1.jpg" alt="">
+                        <h3>Starting at Rs.2,700 </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#4999">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p2.jpg" alt="">
+                        <h3>Starting at Rs.4,999</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#9999">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p3.jpg" alt="">
+                        <h3>Starting at Rs.9,999</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#30000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/p4.jpg" alt="">
+                        <h3>Starting at Rs.30,000</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#37700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac1.jpeg" alt="">
+                        <h3>Starting at Rs.37,700/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#47500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac1.jpg" alt="">
+                        <h3>Starting at Rs.47,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#58500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac3.jpg" alt="">
+                        <h3>Starting at Rs.58,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac7.jpg" alt="">
+                        <h3>Starting at Rs.59,500/-</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./package.html#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/l3.jpg" alt="">
+                        <h3>Starting at Rs.65,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <br><br>
+        <div class="pack4-content">
+            <div style="text-align:center">
+                <button type="button" class="btn btn-primary"><a href="./booking.html"><JavaBlink>Book Now</JavaBlink></a></button>
+            </div>
+        </div><br><br>
+    </section>
+
+    <section class="package2" id="package">
+        <div class="pack5-content">
+
+            <div class="text-block">
+                <h3>Bestsellers at EPIC Discounts</h3>
+                <p>Grab our top-selling packages at unbelievable prices. Get 50% OFF on top sightseeing's , Free E-Visa
+                    & more!!</p>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack5.1.jpg" alt="">
+                    <h3>Egypt</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack5.2.jpg" alt="">
+                    <h3>Vietnam</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.3.jpg" alt="">
+                    <h3>Karala</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.4.webp" alt="">
+                    <h3>Bali</h3>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section class="package2" id="package">
+
+        <div class="package2-content">
+            <div class="text-block">
+                <h3>Jackpot Deals on Top Selling Packages</h3>
+                <p>Save extra with our exclusive deals!</p>
+            </div>
+
+            <a href="./assets/package.html#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac2.1.jpg" alt="">
+                        <h3> Thailand </h3>
+                    </div>
+                </div>
+            </a>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pack2.2.jpg" alt="">
+                    <h3>Goa</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.3.jpg" alt="">
+                    <h3>Karala</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/pac2.4.webp" alt="">
+                    <h3>Bali</h3>
+                </div>
+            </div>
+
+            <a href="./package.html#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/pac2.5.jpg" alt="">
+                        <h3>Kashmir</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Explore Button -->
+
+        <div style="text-align:center">
+            <button type="button" class="btn btn-primary"> <a href="package.html">Explore More</a></button>
+        </div>
+    </section><br><hr><br>
+
+    <!-- Locations -->
+
+    <section class="locations" id="locations">
+        <div class="package-title">
+            <h2>Locations</h2>
+        </div>
+
+        <div class="location-content">
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/l1.jpg" alt="">
+                    <h5>India</h5>
+                    <p>Kashmir</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#istanbul">
+                <div class="col-content">
+                    <img src="./assets/files/l2.jpg" alt="">
+                    <h5>Turkey</h5>
+                    <p>Istanbul</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#paris">
+                <div class="col-content">
+                    <img src="./assets/files/l3.jpg" alt="">
+                    <h5>France</h5>
+                    <p>Paris</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#bali">
+                <div class="col-content">
+                    <img src="./assets/files/l4.jpg" alt="">
+                    <h5>Indonesia</h5>
+                    <p>Bali</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#dubai">
+                <div class="col-content">
+                    <img src="./assets/files/l5.jpg" alt="">
+                    <h5>United Arab Emirates</h5>
+                    <p>Dubai</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#geneva">
+                <div class="col-content">
+                    <img src="./assets/files/l6.jpg" alt="">
+                    <h5>Switzerland</h5>
+                    <p>Geneva</p>
+                </div>
+            </a>
+
+            <a href="./locations.html#port-blair">
+                <div class="col-content">
+                    <img src="./assets/files/l7.jpg" alt="">
+                    <h5>Andaman & Nicobar</h5>
+                    <p>Port Blair</p>
+                </div>
+            </a>
+        </div>
+    </section><br><hr>
+
+    <!-- FAQ;s -->
+
+    <section class="destinations-section"><br>
+        <div class="destination-title">
+            <h2>Best Destinations to Visit in India</h2>
+            <p class="subtitle">Discover the incredible diversity and beauty of India's top tourist destinations</p>
+        </div>
+        <div class="container1">
+            <style>
+                .destination-title {
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }
+                
+                .destination-title h2 {
+                    font-size: 2.5rem;
+                    color: #333;
+                    position: relative;
+                    display: inline-block;
+                    padding-bottom: 10px;
+                }
+                
+                .destination-title h2::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 60%;
+                    height: 3px;
+                    background: #4CAF50;
+                }
+                
+                .destinations-section {
+                    background: #f8f9fa;
+                    padding: 4rem 0;
+                }
+                
+                .destination-title .subtitle {
+                    color: #666;
+                    font-size: 1.1rem;
+                    margin-top: 1rem;
+                    text-align: center;
+                }
+                
+                .destination-card-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .container1 {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 2rem;
+                    padding: 2rem;
+                    max-width: 1400px;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 1200px) {
+                    .container1 {
+                        grid-template-columns: repeat(2, 1fr);
+                        padding: 1.5rem;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .container1 {
+                        grid-template-columns: 1fr;
+                        padding: 1rem;
+                    }
+                }
+
+                .container1 .box {
+                    background: white;
+                    border-radius: 15px;
+                    overflow: hidden;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    position: relative;
+                }
+
+                .container1 .box:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+                }
+
+                .container1 .box h1 {
+                    font-size: 1.5rem;
+                    color: #2c3e50;
+                    margin: 1rem;
+                    padding-bottom: 0.5rem;
+                    border-bottom: 2px solid #4CAF50;
+                }
+
+                .container1 .box p {
+                    padding: 1rem;
+                    font-size: 0.95rem;
+                    color: #555;
+                    line-height: 1.6;
+                }
+
+                .loc-detail {
+                    padding: 0 2rem;
+                }
+
+                .loc-detail li {
+                    font-size: 0.9rem;
+                    color: #666;
+                    margin-bottom: 0.5rem;
+                    list-style-type: none;
+                    position: relative;
+                    padding-left: 1.5rem;
+                }
+
+                .loc-detail li:before {
+                    content: '•';
+                    color: #4CAF50;
+                    position: absolute;
+                    left: 0;
+                    font-size: 1.2rem;
+                }
+
+                .container1 .box b {
+                    color: #2c3e50;
+                    font-weight: 600;
+                }
+
+                .destination-info {
+                    padding: 1rem;
+                }
+
+                .destination-highlight {
+                    background: #e8f5e9;
+                    padding: 1rem;
+                    border-radius: 8px;
+                    margin-top: 1rem;
+                    font-size: 0.9rem;
+                    color: #2e7d32;
+                }
+
+                .destination-card-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius: 15px 15px 0 0;
+                    transition: transform 0.3s ease;
+                }
+
+                .box:hover .destination-card-image {
+                    transform: scale(1.05);
+                }
+
+                @media (max-width: 768px) {
+                    .container1 {
+                        grid-template-columns: 1fr;
+                        padding: 1rem;
+                    }
+                    
+                    .destination-title h2 {
+                        font-size: 2rem;
+                    }
+
+                    .destination-card-image {
+                        height: 180px;
+                    }
+                }
+            </style>
+
+            <div class="box">
+                <img src="./assets/files/pack2.2.jpg" alt="Beaches of Goa" class="destination-card-image">
+                <h1>Goa</h1>
+                <p>The unofficial party capital of India, Goa offers a perfect blend of beaches, history, and vibrant culture. Experience world-class nightlife, water sports, and serene beaches all in one place.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> November to February</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>Calangute Beach - The Queen of Beaches</li>
+                        <li>Baga Beach - Famous for water sports</li>
+                        <li>Anjuna Beach - Known for flea markets</li>
+                        <li>Miramar Beach - Perfect for sunset views</li>
+                        <li>Palolem Beach - Pristine southern beach</li>
+                        <li>Panjim - The charming capital city</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Visit the offbeat Patnem Beach, rated as one of Asia's top 20 beaches!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/files/pac2.3.jpg" alt="Backwaters of Kerala" class="destination-card-image">
+                <h1>Kerala</h1>
+                <p>Known as "God's Own Country", Kerala offers a perfect blend of natural beauty, culture, and tranquility. From serene backwaters to lush hill stations, this tropical paradise has it all.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> September to March</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>Sree Padmanabhaswamy Temple - Historic temple architecture</li>
+                        <li>Alleppey Backwaters - Houseboat experiences</li>
+                        <li>Munnar - Scenic hill station & tea gardens</li>
+                        <li>Varkala Beach - Cliff-side beach paradise</li>
+                        <li>Athirappilly Waterfalls - Kerala's largest waterfall</li>
+                        <li>Kumarakom - Bird sanctuary & backwaters</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Don't miss trying the authentic Kerala cuisine, especially the seafood delicacies!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/files/pac2.5.jpg" alt="Dal Lake, Kashmir" class="destination-card-image">
+                <h1>Kashmir</h1>
+                <p>Known as "Paradise on Earth", Kashmir's breathtaking landscapes, snow-capped peaks, and serene lakes make it one of India's most beautiful destinations.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> March to August</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>Dal Lake - Famous houseboats & floating markets</li>
+                        <li>Gulmarg - India's premier ski resort</li>
+                        <li>Srinagar - Summer capital & gardens</li>
+                        <li>Sonamarg - The Meadow of Gold</li>
+                        <li>Pahalgam - Valley of Shepherds</li>
+                        <li>Tulip Garden - Asia's largest tulip garden</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Don't forget to buy authentic Kashmiri shawls and unique handicrafts as souvenirs!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/files/l1.jpg" alt="Mountains of Sikkim" class="destination-card-image">
+                <h1>Sikkim</h1>
+                <p>Home to the majestic Kanchenjunga, Sikkim offers a perfect blend of natural beauty, Buddhist culture, and adventure opportunities in the Eastern Himalayas.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> March to May</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>Gangtok - The charming capital city</li>
+                        <li>Nathu La Pass - Historic Silk Route border</li>
+                        <li>Tsomgo Lake - Sacred high-altitude lake</li>
+                        <li>Rumtek Monastery - Largest monastery in Sikkim</li>
+                        <li>Yumthang Valley - Valley of Flowers</li>
+                        <li>Pelling - Best views of Kanchenjunga</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Try the local Sikkimese cuisine and don't miss the sunrise view of Kanchenjunga!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/files/l2.jpg" alt="Shimla City View" class="destination-card-image">
+                <h1>Shimla</h1>
+                <p>Known as the "Queen of Hills", Shimla captivates visitors with its colonial architecture, mountain views, and romantic atmosphere, making it perfect for honeymoons and family trips.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> May to June / December to January</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>The Ridge - Heart of Shimla city</li>
+                        <li>Mall Road - Famous shopping street</li>
+                        <li>Jakhoo Hill - Highest point with temple</li>
+                        <li>Green Valley - Picturesque landscapes</li>
+                        <li>Christ Church - Gothic architecture</li>
+                        <li>Toy Train - UNESCO World Heritage</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Take a ride on the historic Kalka-Shimla toy train for breathtaking mountain views!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/files/l4.jpg" alt="Uttarakhand Landscapes" class="destination-card-image">
+                <h1>Uttarakhand</h1>
+                <p>Known as "Dev Bhoomi" (Land of Gods), Uttarakhand offers a perfect blend of spirituality, adventure, and natural beauty with its pristine Himalayan landscapes.</p>
+                
+                <div class="destination-info">
+                    <p><b>Best time to visit:</b> March to April / September to October</p>
+                    <b>Must-Visit Places:</b>
+                    <ul class="loc-detail">
+                        <li>Rishikesh - Yoga Capital of the World</li>
+                        <li>Mussoorie - Queen of Hill Stations</li>
+                        <li>Nainital - City of Lakes</li>
+                        <li>Auli - Popular Ski Destination</li>
+                        <li>Dehradun - Gateway to Uttarakhand</li>
+                        <li>Valley of Flowers - UNESCO World Heritage Site</li>
+                    </ul>
+                    <p class="destination-highlight">💡 Pro tip: Try river rafting in Rishikesh and don't miss the evening Ganga Aarti!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container2">
+            <style>
+                .faq {
+                    background-color: #f8f9fa;
+                    padding: 4rem 0;
+                }
+
+                .container2 {
+                    max-width: 900px;
+                    margin: 0 auto;
+                    padding: 2rem;
+                }
+
+                .faq-header {
+                    text-align: center;
+                    margin-bottom: 3rem;
+                }
+
+                .faq-header h1 {
+                    font-size: 2.5rem;
+                    color: #2c3e50;
+                    margin-bottom: 1rem;
+                    position: relative;
+                    display: inline-block;
+                    padding-bottom: 10px;
+                }
+
+                .faq-header h1::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 60%;
+                    height: 3px;
+                    background: #4CAF50;
+                }
+
+                .faq-header p {
+                    color: #666;
+                    font-size: 1.1rem;
+                }
+
+                .faq-accordion {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+
+                .faq-item {
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    overflow: hidden;
+                    transition: all 0.3s ease;
+                }
+
+                .faq-question {
+                    padding: 1.5rem;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: #2c3e50;
+                    font-weight: 600;
+                    font-size: 1.1rem;
+                }
+
+                .faq-question:hover {
+                    background: #f0f7ff;
+                }
+
+                .faq-answer {
+                    padding: 0 1.5rem;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all 0.3s ease;
+                    line-height: 1.6;
+                    color: #555;
+                }
+
+                .faq-answer ul {
+                    list-style: none;
+                    padding-left: 0;
+                }
+
+                .faq-answer ul li {
+                    padding: 0.5rem 0 0.5rem 1.5rem;
+                    position: relative;
+                }
+
+                .faq-answer ul li::before {
+                    content: '•';
+                    color: #4CAF50;
+                    position: absolute;
+                    left: 0;
+                    font-size: 1.2rem;
+                }
+
+                .faq-item.active .faq-answer {
+                    padding: 1.5rem;
+                    max-height: 500px;
+                    border-top: 1px solid #eee;
+                }
+
+                .faq-item.active {
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+                }
+
+                .faq-toggle {
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                }
+
+                .faq-toggle::before,
+                .faq-toggle::after {
+                    content: '';
+                    position: absolute;
+                    background: #4CAF50;
+                    transition: all 0.3s ease;
+                }
+
+                .faq-toggle::before {
+                    width: 2px;
+                    height: 20px;
+                    left: 9px;
+                    top: 0;
+                }
+
+                .faq-toggle::after {
+                    width: 20px;
+                    height: 2px;
+                    left: 0;
+                    top: 9px;
+                }
+
+                .faq-item.active .faq-toggle::before {
+                    transform: rotate(90deg);
+                    opacity: 0;
+                }
+
+                @media (max-width: 768px) {
+                    .container2 {
+                        padding: 1rem;
+                        margin: 0 1rem;
+                    }
+
+                    .faq-header h1 {
+                        font-size: 2rem;
+                    }
+
+                    .faq-question {
+                        font-size: 1rem;
+                        padding: 1.2rem;
+                    }
+                }
+            </style>
+
+            <div class="faq-header">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common questions about planning your perfect trip</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What kind of destinations can I choose for travelling?
+                        <div class="faq-toggle"></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a diverse range of destinations to suit every traveler's preferences:</p>
+                        <ul>
+                            <li>Adventure destinations for trekking and wildlife experiences</li>
+                            <li>Romantic getaways for couples</li>
+                            <li>Beach destinations for relaxation</li>
+                            <li>Mountain retreats for nature lovers</li>
+                            <li>Heritage sites for history enthusiasts</li>
+                            <li>Pilgrimage destinations for spiritual seekers</li>
+                        </ul>
+                        <p>Choose based on your interests, whether you're seeking adventure, relaxation, or cultural experiences.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I opt for a budget-friendly holiday?
+                        <div class="faq-toggle"></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer holiday packages across various budget ranges:</p>
+                        <ul>
+                            <li>Budget-friendly packages starting from ₹10,000</li>
+                            <li>Mid-range options between ₹20,000 - ₹35,000</li>
+                            <li>Luxury experiences up to ₹50,000 and above</li>
+                        </ul>
+                        <p><strong>Pro tip:</strong> Book in advance to secure the best rates and avoid price fluctuations during peak seasons.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Which time of the year is best suited for booking a holiday?
+                        <div class="faq-toggle"></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can plan your holiday any time of the year! Our intelligent travel planner helps you:</p>
+                        <ul>
+                            <li>Find destinations best suited for your chosen month</li>
+                            <li>Get personalized recommendations based on weather conditions</li>
+                            <li>Discover seasonal attractions and festivals</li>
+                            <li>Plan around peak and off-peak seasons for better rates</li>
+                        </ul>
+                        <p>Use our month-wise filters along with your budget and travel preferences to find the perfect destination.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What's included in a holiday package?
+                        <div class="faq-toggle"></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our comprehensive holiday packages include:</p>
+                        <ul>
+                            <li>Carefully curated local attractions and must-visit sites</li>
+                            <li>Accommodation options ranging from hotels to resorts</li>
+                            <li>Transportation arrangements</li>
+                            <li>Guided tours and activities</li>
+                            <li>Customizable itineraries to match your preferences</li>
+                            <li>24/7 travel support during your trip</li>
+                        </ul>
+                        <p><strong>Bonus:</strong> Get insider tips and recommendations for unique local experiences!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const item = question.parentElement;
+                    document.querySelectorAll('.faq-item').forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    item.classList.toggle('active');
+                });
+            });
+        </script>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter">
+        <div class="newstext">
+            <h2>Newsletter</h2>
+            <p>Subscribe to get offers and latest<br>updates every week!</p>
+        </div>
+
+        <div class="send">
+            <form action="">
+                <input type="email" name="emailid" placeholder="E-mail" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="foot">
+            <div class="footer-content">
+
+                <div class="footlinks">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="./booking.html">Register</a></li>
+                        <li><a href="./info.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footlinks">
+                    <h4>Connect</h4>
+                    <div class="social">
+                        
+                        <a href="https://www.linkedin.com/in/rahul-berwal-7a1b58242/" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/tobiasrahul" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="end">
+            <p>Copyright © 2023 Globetrotter All Rights Reserved.<br>Website developed by: Rahul Berwal</p>
+        </div>
+    </section>
+ <SCRIPT type="text/javascript">
+        function JavaBlink() {
+           var blinks = document.getElementsByTagName('JavaBlink');
+           for (var i = blinks.length - 1; i >= 0; i--) {
+              var s = blinks[i];
+              s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+           }
+           window.setTimeout(JavaBlink, 500);
+        }
+        if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+        else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+        else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+        else window.onload = JavaBlink;
+      </SCRIPT>
+</body>
+
+</html>
