@@ -117,7 +117,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For any queries or suggestions, please reach out:
-- 📧 Email: [rahulberwal@gmail.com](mailto:rahulberwal@gmail.com)
 - 💼 LinkedIn: [Rahul Berwal](https://www.linkedin.com/in/rahul-berwal-7a1b58242/)
 - 🌐 GitHub: [@tobiasrahul](https://github.com/tobiasrahul)
 
